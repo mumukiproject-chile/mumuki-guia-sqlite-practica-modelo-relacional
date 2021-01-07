@@ -5,5 +5,7 @@ This content is distributed under Creative Commons License Share-Alike, 4.0. [ht
 
 Copyright Nadia Finzi and contributors
 
-This content consists of voluntary contributions made by many individuals. For exact contribution history, see its revision history available at https://github.com/mumukiproject/mumuki-guia-sqlite-tablas-filas-y-columnas and the AUTHORS.txt file.
+This content consists of voluntary contributions made by many
+individuals. For exact contribution history, see its revision history
+available at https://github.com/mumukiproject-chile/mumuki-guia-sqlite-practica-modelo-relacional and the AUTHORS.txt file.
 

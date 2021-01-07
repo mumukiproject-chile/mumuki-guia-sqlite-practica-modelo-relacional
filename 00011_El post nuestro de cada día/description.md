@@ -1,6 +1,6 @@
-Se está poniendo buena la cosa. :smiling\_imp:
+Se está poniendo buena la cosa. :smiling_imp:
 
-> Muestra el ID de la publicación que hizo hoy "valen\_s", a la cual un seguidor suyo le dio _like_. Muestra también el ID del seguidor. 
+> Muestra el ID de la publicación que hizo hoy "valen_s", a la cual un seguidor suyo le dio _like_. Muestra también el ID del seguidor. 
 
 <div
   class='mu-erd'

@@ -6,6 +6,7 @@ editor: single_choice
 type: problem
 extra_visible: false
 language: text
+teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess

@@ -4,7 +4,10 @@ Supongamos que quisiéramos mostrar cada usuario con la cantidad de seguidores q
 
 Podríamos hacer esta consulta:
 
-``` sql SELECT id_seguido, COUNT(id_seguidor) AS cantidad_seguidores FROM seguidores; ```
+``` sql 
+SELECT id_seguido, COUNT(id_seguidor) AS cantidad_seguidores 
+FROM seguidores; 
+```
 
 Eso nos devuelve esto:
 
@@ -21,4 +24,8 @@ Pero si el usuario con ID = 4 tiene 7 seguidores, podemos imaginar entonces que 
 
 > La solución está acá. Copia esta query en el editor y mira lo que devuelve. ¿Te imaginas qué hace la sentencia `GROUP BY`?
 
-> ``` sql SELECT id_seguido, COUNT(id_seguidor) AS cantidad_seguidores FROM seguidores GROUP BY id_seguido; ```
+> ``` sql 
+> SELECT id_seguido, COUNT(id_seguidor) AS cantidad_seguidores 
+> FROM seguidores 
+> GROUP BY id_seguido; 
+```

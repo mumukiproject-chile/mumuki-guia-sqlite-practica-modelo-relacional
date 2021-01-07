@@ -64,6 +64,6 @@
   }'>
 </div>
 
-Pero es importante mostrar también el nombre de la persona que comentó (así podemos contestarle :stuck\_out\_tongue\_winking\_eye:).
+Pero es importante mostrar también el nombre de la persona que comentó (así podemos contestarle :stuck_out_tongue_winking_eye:).
 
 > Muestra todos los comentarios de la publicación con id = 6, junto con el nombre del usuario que lo realizó.

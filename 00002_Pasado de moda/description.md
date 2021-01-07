@@ -6,6 +6,8 @@ Muy divertido borrar... pero como te contamos, solo deberíamos eliminar las _pu
 
 Acá te damos un ejemplo para mostrar qué fecha será dentro de un mes:
 
-``` sql SELECT DATE('now', '+1 month'); ```
+``` sql 
+SELECT DATE('now', '+1 month'); 
+```
 
-> Modifica lo que hiciste en el ejercicio anterior para eliminar las publicaciones de _ayer_ (sí, **todas** las publicaciones; después veremos cómo filtrar las temporales :stuck\_out\_tongue\_winking\_eye:)
+> Modifica lo que hiciste en el ejercicio anterior para eliminar las publicaciones de _ayer_ (sí, **todas** las publicaciones; después veremos cómo filtrar las temporales :stuck_out_tongue_winking_eye:)

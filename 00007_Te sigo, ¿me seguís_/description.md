@@ -90,4 +90,4 @@ Así, para evitar esas repeticiones y redundancias, basta con dejar una sola tab
   }'>
 </div>
 
-> Consulta los ID de todos los que siguen a "valen\_s".
+> Consulta los ID de todos los que siguen a "valen_s".
