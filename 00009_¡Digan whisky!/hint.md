@@ -1,1 +1,1 @@
-Recordá que podés comparar strings usando la cláusula `LIKE ("%algo para comparar%")` donde los porcentajes matchean con cualquier secuencia de caracteres que venga en su lugar. 
+Recuerda que puedes comparar strings usando la cláusula `LIKE ("%algo para comparar%")`, donde los porcentajes coinciden con cualquier secuencia de caracteres que venga en su lugar. 

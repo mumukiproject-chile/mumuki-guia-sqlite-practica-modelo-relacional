@@ -1,6 +1,6 @@
 Con todo esto ya podemos seguir a quien queramos. :tada:
 
-> Insertá en la tabla que corresponda los datos que indiquen que ahora `an_she` sigue a `mariano_di`.
+> Inserta en la tabla que corresponda los datos que indiquen que ahora `an_she` sigue a `mariano_di`.
 
 <div
   class='mu-erd'

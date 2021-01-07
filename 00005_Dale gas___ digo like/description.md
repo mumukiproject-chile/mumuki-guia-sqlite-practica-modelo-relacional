@@ -1,8 +1,8 @@
 ¿Y qué serían de nuestras publicaciones si no supiéramos a cuántas personas les gustó realmente nuestra foto o video?
 
-Agreguemos a nuestro modelo la tabla de likes entonces :plus1:, con el ID de la publicación a la que pertenecen y el ID del usuario que lo dio. 
+Agreguemos a nuestro modelo la tabla de likes, entonces :plus1:, con el ID de la publicación a la que pertenecen y el ID del usuario que lo dio. 
 
-> Consultá la cantidad de likes que tuvo la publicación que hizo "valen_s" ayer. Ojo que si es de ayer, entonces no es temporal (porque se tendría que haber borrado sino :stuck_out_tongue_winking_eye:). Mostrá el resultado como `likes_totales`.
+> Consulta la cantidad de likes que tuvo la publicación que hizo "valen\_s" ayer. Ojo que si es de ayer, entonces no es temporal (de lo contrario, se tendría que haber borrado  :stuck\_out\_tongue\_winking\_eye:). Muestra el resultado como `likes_totales`.
 
 Por simplicidad te dejamos solo esta vez el DER sin la tabla de comentarios.
 

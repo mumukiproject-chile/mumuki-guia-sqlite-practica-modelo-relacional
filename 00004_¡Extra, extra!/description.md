@@ -1,6 +1,6 @@
 ¿Pero qué gracia tiene hacer publicaciones si nuestros amigos o familiares no pueden comentar? :unamused:
 
-¡Agreguemosles comentarios a las publicaciones entonces! :smile: 
+¡Agreguemos comentarios a las publicaciones, entonces! :smile: 
 
 <div
   class='mu-erd'
@@ -64,6 +64,6 @@
   }'>
 </div>
 
-Pero es importante mostrar también el nombre de la persona que comentó (así podemos contestarle :stuck_out_tongue_winking_eye:).
+Pero es importante mostrar también el nombre de la persona que comentó (así podemos contestarle :stuck\_out\_tongue\_winking\_eye:).
 
-> Mostrá, de la publicación con id = 6, todos los comentarios junto con el nombre del usuario que lo realizó.
+> Muestra todos los comentarios de la publicación con id = 6, junto con el nombre del usuario que lo realizó.

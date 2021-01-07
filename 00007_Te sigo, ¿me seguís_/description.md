@@ -52,7 +52,7 @@ Si esa relación es de _muchos a muchos_, para hacer el DER podríamos imaginar 
 
 Pero sabemos que `usuarios_1` es lo mismo que `usuarios_2`, con los mismos campos y hasta los mismos registros. En un caso están funcionando como seguidores, y en el otro como seguidos. 
 
-Así que para evitar esas repeticiones y redundancias, basta con dejar una sola tabla de usuarios, y marcar ambas relaciones así:
+Así, para evitar esas repeticiones y redundancias, basta con dejar una sola tabla de usuarios y marcar ambas relaciones así:
 
 <div
   class='mu-erd'
@@ -90,4 +90,4 @@ Así que para evitar esas repeticiones y redundancias, basta con dejar una sola 
   }'>
 </div>
 
-> Consultá los IDs de todos los que siguen a "valen_s".
+> Consulta los ID de todos los que siguen a "valen\_s".

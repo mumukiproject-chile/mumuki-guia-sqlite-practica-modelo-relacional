@@ -2,5 +2,5 @@
 
 Un usuario puede seguir a muchos usuarios, y a la vez tener muchos seguidores. ¿Entonces cómo se vería esto en el DER? 
 
-Averigüemoslo en el próximo ejercicio. :wink:
+Averigüémoslo en el próximo ejercicio. :wink:
 

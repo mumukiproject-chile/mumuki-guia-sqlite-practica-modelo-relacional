@@ -1,6 +1,6 @@
-¡Buenísimo! Solo te pedimos un último esfuerzo, que con todo lo que viste es pan comido. :stuck_out_tongue_winking_eye:
+¡Buenísimo! Solo te pedimos un último esfuerzo, que, con todo lo que viste, es pan comido. :stuck\_out\_tongue\_winking\_eye:
 
-> Modificá la consulta anterior para que muestre el nombre del usuario en vez del ID.
+> Modifica la consulta anterior para que muestre el nombre del usuario en vez del ID.
 
 
 <div

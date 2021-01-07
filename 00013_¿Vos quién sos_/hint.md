@@ -1,1 +1,1 @@
-Recordá aclarar por cuál campo querés agrupar los resultados. :wink:
+Recuerda aclarar por cuál campo quieres agrupar los resultados. :wink:

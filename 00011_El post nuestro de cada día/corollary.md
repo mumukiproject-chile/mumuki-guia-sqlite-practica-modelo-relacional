@@ -1,1 +1,1 @@
-¡Genial! Pudiste atacar un DER mucho más grande. Y simplemente de eso se trata... Las grandes empresas  manejan miles, o incluso millones de entidades, por lo que la clave del problema está en saber por dónde (es decir, qué tablas) encarar la solución. 
+¡Genial! Pudiste atacar un DER mucho más grande. Y simplemente de eso se trata... Las grandes empresas manejan miles o incluso millones de entidades, por lo que la clave del problema está en saber por dónde (es decir, qué tablas) abordar la solución. 

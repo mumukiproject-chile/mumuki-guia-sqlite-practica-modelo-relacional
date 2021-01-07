@@ -1,10 +1,10 @@
-¡Excelente! Solo nos falta un paso... eliminar únicamente las publicaciones **temporales**. :hourglass:
+¡Excelente! :smirk: Solo nos falta un paso... eliminar únicamente las publicaciones **temporales**. :hourglass:
 
-Ya te contamos que podemos diferenciar una historia de una publicación fija por el campo `es_temporal`.
+Ya te contamos que podemos diferenciar una historia de una publicación fija con el campo `es_temporal`.
 
-Pero como verás en el DER, ese campo es de tipo `Integer`. Eso es porque SQLite tampoco soporta el tipo de dato `Boolean` (como sí lo hacen otros motores), pero entiende al `0` como un `False` (falso) y al `1` como un `True` (verdadero).
+Pero como verás en el DER, ese campo es de tipo `Integer`. Eso es porque SQLite tampoco es compatible con el tipo de dato `Boolean` (a diferencia de otros motores), sino que entiende el `0` como un `False` (falso) y el `1` como un `True` (verdadero).
 
-> Dicho esto, modificá la sentencia para eliminar las publicaciones que sean temporales y tengan fecha de ayer.
+> Sabiendo esto, modifica la sentencia para eliminar las publicaciones que sean temporales y tengan fecha de ayer.
 
 <div
   class='mu-erd'
