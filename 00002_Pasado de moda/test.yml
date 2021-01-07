@@ -1,0 +1,9 @@
+type: final_dataset
+final: SELECT id_publicacion FROM publicaciones;
+expected: |
+  id_publicacion
+  1
+  2
+  5
+  8
+  9

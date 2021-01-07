@@ -1,0 +1,60 @@
+---
+name: Práctica modelo relacional
+locale: es
+type: practice
+beta: false
+teacher_info: "_DER COMPLETO_\n\n<div\n  class='mu-erd'\n  data-entities='{\n    \"likes\":
+  {\n      \"id_publicacion\": {\n        \"type\": \"Integer\",\n        \"pk\":
+  true,\n        \"fk\": {\n          \"to\": { \"entity\": \"publicaciones\", \"column\":
+  \"id_publicacion\" },\n          \"type\": \"many_to_one\"\n        }\n      },\n
+  \     \"id_stalker\": {\n        \"type\": \"Integer\",\n        \"pk\": true,\n
+  \       \"fk\": {\n          \"to\": { \"entity\": \"usuarios\", \"column\": \"id_usuario\"
+  },\n          \"type\": \"many_to_one\"\n        }\n      }\n    },\n    \"publicaciones\":
+  {\n      \"id_publicacion\": {\n        \"type\": \"Integer\",\n        \"pk\":
+  true\n      },\n      \"foto_video_url\": {\n        \"type\": \"Text\"\n      },\n
+  \     \"id_duenio\": {\n        \"type\": \"Integer\",\n        \"pk\": false,\n
+  \       \"fk\": {\n          \"to\": { \"entity\": \"usuarios\", \"column\": \"id_usuario\"
+  },\n          \"type\": \"many_to_one\"\n        }\n      },\n      \"fecha\": {\n
+  \       \"type\": \"Text\"\n      },\n      \"es_temporal\": {\n        \"type\":
+  \"Integer\"\n      }\n    },\n    \"comentarios\": {\n      \"id_publicacion\":
+  {\n        \"type\": \"Integer\",\n        \"pk\": true,\n        \"fk\": {\n          \"to\":
+  { \"entity\": \"publicaciones\", \"column\": \"id_publicacion\" },\n          \"type\":
+  \"many_to_one\"\n        }\n      },\n      \"id_stalker\": {\n        \"type\":
+  \"Integer\",\n        \"pk\": true,\n        \"fk\": {\n          \"to\": { \"entity\":
+  \"usuarios\", \"column\": \"id_usuario\" },\n          \"type\": \"many_to_one\"\n
+  \       }\n      },\n      \"comentario\": {\n        \"type\": \"Text\"\n      }\n
+  \   },\n    \"seguidores\": {\n      \"id_seguidor\": {\n        \"type\": \"Integer\",\n
+  \       \"pk\": true,\n        \"fk\": {\n          \"to\": { \"entity\": \"usuarios\",
+  \"column\": \"id_usuario\" },\n          \"type\": \"many_to_one\"\n        }\n
+  \     },\n      \"id_seguido\": {\n        \"type\": \"Integer\",\n        \"pk\":
+  true,\n        \"fk\": {\n          \"to\": { \"entity\": \"usuarios\", \"column\":
+  \"id_usuario\" },\n          \"type\": \"many_to_one\"\n        }\n      }\n    },\n
+  \   \"usuarios\": {\n      \"id_usuario\": {\n        \"type\": \"Integer\",\n        \"pk\":
+  true\n      },\n      \"nombre_usuario\": {\n        \"type\": \"Text\"\n      },\n
+  \     \"foto_perfil_url\": {\n        \"type\": \"Text\"\n      }\n    }\n  }'>\n</div>\n\n\n<!--
+  Para modificar fechas de las publicaciones:\nUPDATE publicaciones SET fecha=date(\"2018-03-15\");\nUPDATE
+  publicaciones SET fecha=date(\"2017-12-27\")  WHERE id_publicacion IN('1','2','8',
+  '9');\nUPDATE publicaciones SET fecha=date(\"2018-01-06\")  WHERE id_publicacion
+  = 5;\n-->\n \n> Mostrar los nombres de los que le dieron like a cierta publicación,
+  y cuántos likes hay.\n\n> Mostrar a cada usuario con la cantidad de seguidores que
+  tenga -> meter group by \nSELECT nombre_usuario, count(id_seguidor) as seguidores
+  FROM seguidores, usuarios WHERE id_usuario = id_seguido group by nombre_usuario;\n\nSe
+  puede agregar que un comentario sea \"respuesta\" de otro comentario particular
+  -> muchos a uno en **comentarios** con sí misma\n"
+language: sqlite
+id_format: "%05d"
+order:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+private: false

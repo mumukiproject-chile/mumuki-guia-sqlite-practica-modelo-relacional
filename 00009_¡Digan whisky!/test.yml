@@ -1,0 +1,2 @@
+type: query
+expected: SELECT u1.foto_perfil_url as tus_seguidores FROM seguidores, usuarios u1, usuarios u2 WHERE id_seguidor = u1.id_usuario AND u2.id_usuario = id_seguido AND u2.foto_perfil_url = "fotogram.com/images/id=14";

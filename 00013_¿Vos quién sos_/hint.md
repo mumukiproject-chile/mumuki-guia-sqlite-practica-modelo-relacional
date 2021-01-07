@@ -1,0 +1,1 @@
+Recordá aclarar por cuál campo querés agrupar los resultados. :wink:

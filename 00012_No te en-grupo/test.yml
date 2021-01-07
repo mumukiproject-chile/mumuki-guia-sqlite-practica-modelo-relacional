@@ -1,0 +1,2 @@
+type: query
+expected: SELECT id_seguido, count(id_seguidor) AS cantidad_seguidores FROM seguidores GROUP BY id_seguido;

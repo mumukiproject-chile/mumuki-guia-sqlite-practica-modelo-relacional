@@ -1,0 +1,2 @@
+type: query
+expected: SELECT count(l.id_publicacion) AS likes_totales FROM likes l, publicaciones p, usuarios u WHERE l.id_publicacion = p.id_publicacion AND p.id_duenio = u.id_usuario AND nombre_usuario = "valen_s" AND fecha = date("now", '-1 day') AND NOT es_temporal;

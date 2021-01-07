@@ -1,0 +1,2 @@
+type: query
+expected: SELECT comentario, nombre_usuario FROM comentarios, usuarios WHERE id_stalker=id_usuario AND id_publicacion = 6;

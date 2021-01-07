@@ -1,0 +1,4 @@
+type: datasets
+expected: |
+  id_publicacion|id_seguidor
+  1|2

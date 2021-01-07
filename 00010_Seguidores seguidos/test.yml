@@ -1,0 +1,12 @@
+type: final_dataset
+final: select stalk.nombre_usuario as seguidor, id_seguidor, id_seguido, seg.nombre_usuario as seguido from seguidores, usuarios stalk, usuarios seg where id_seguidor = stalk.id_usuario and id_seguido = seg.id_usuario;
+expected: |
+  seguidor|id_seguidor|id_seguido|seguido
+  valen_s|1|2|stephanie_d
+  valen_s|1|3|mariano_di
+  valen_s|1|5|yon_g
+  stephanie_d|2|1|valen_s
+  stephanie_d|2|5|yon_g
+  yon_g|5|1|valen_s
+  yon_g|5|4|an_she
+  an_she|4|3|mariano_di
