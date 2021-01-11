@@ -1,2 +1,2 @@
---modificá esta sentencia
+--modifica esta sentencia
 /*...previousContent...*/
