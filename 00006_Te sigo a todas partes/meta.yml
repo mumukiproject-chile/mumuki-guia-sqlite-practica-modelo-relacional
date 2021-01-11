@@ -21,4 +21,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: usuarios y comentarios
   checked: false
-name: Siempre yo te sigo a todas partes
+name: Te sigo a todas partes
